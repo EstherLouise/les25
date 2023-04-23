@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welkom</title>
+  <script
+src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+$("#knop").click(function() {
+var kleinste = $("#idTekstveld1").val();
+var jaar = $("#idTekstveld2").val();
+var staten = $("#idTekstveld3").val();
+window.alert(
+"Ik ben " + naam +
+" en het kleinste dier ter wereld is " + kleinste +
+" Europe bestaat sinds dit jaar " + jaar );
+" De Usa heeft zoveel staten " + staten );
+});
+});s
+</script>
+</head>
+<body>
+<form>
+Wat is het kleinste dier ter wereld?
+<input type="text" id="idtekstveld1"><br><br>
+Since welk jaar bestaat Europa?
+<input type="text" id="idtekstveld2"><br><br>
+Hoeveel staten heeft de USA?
+<input type="text" id="idtekstveld3"><br><br>
+<input id="knop" name="knop" type="button"
+value="Klik op deze knop">
+</form>
+  
+</body>
+</html>
